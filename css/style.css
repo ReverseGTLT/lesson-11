@@ -6,6 +6,7 @@
 
 body {
     height: 100vh;
+    overflow: hidden;
 }
 
 .box__item {
@@ -53,16 +54,16 @@ body {
     transform: translateZ(100px) translateY(100px);
 }
 
-.box-back__top { 
+.box__back-top { 
     transform: translateY(-100px); 
     width: 100px; 
 }
 
-.box-back__center {
+.box__back-center {
     width: 300px; 
 }
 
-.box-back__bottom {
+.box__back-bottom {
     width: 100px;
     transform: translateY(100px);
 }
